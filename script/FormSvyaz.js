@@ -36,7 +36,7 @@ form.addEventListener('submit', function(e) {
     socket.send(JSON.stringify(objectData));
 });
 
-const socket = new WebSocket('ws://zabroshka.herokuapp.com/datauser');
+const socket = new WebSocket('ws://zabroshka.herokuapp.com/datausergit');
 
 socket.onopen = function() {
 
